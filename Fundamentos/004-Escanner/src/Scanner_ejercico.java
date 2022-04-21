@@ -11,5 +11,12 @@ public class Scanner_ejercico {
         System.out.println("Escribe el título:");
         var titulo = consola.nextLine();
         System.out.println("Resultado: " + titulo +  " " + usuario);
+        //Ejercicio 
+        System.out.println("Proporciona el título ");
+        Scanner libro = new Scanner(System.in);
+        var titulo1 = libro.nextLine();
+        System.out.println("Proporciona el autor ");
+        var autor = libro.nextLine();
+        System.out.println(titulo1 + "fue escrito por " + autor);
     }
 }
